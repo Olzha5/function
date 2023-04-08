@@ -5,7 +5,7 @@ df = pd.DataFrame(["STD, City State",
                    "33, Kolkata West Bengal",
                    "44, Chennai Tamil Nadu",
                    "40, Hyderabad Telengana",
-                   "80, Bangalore Karnataka"],
+                   "aaaaaaaaaaaaaaaaaaaa"],
                   columns=['row'])
 
 # разделяем значения столбца row на два столбца
@@ -18,3 +18,4 @@ df[['2', '3']] = df['City State'].str.split(' ', n=1, expand=True)
 df.drop(['row', 'City State'], axis=1, inplace=True)
 
 print(df)
+print("salem")

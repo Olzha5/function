@@ -19,3 +19,5 @@ df.drop(['row', 'City State'], axis=1, inplace=True)
 
 print(df)
 print("salem")
+print("salem")
+print("salem")
